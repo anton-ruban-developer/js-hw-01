@@ -1,0 +1,10 @@
+let salary = prompt('Введите размер вашей зароботной платы');
+salary = Number(salary);
+const bonus = salary * 0.15;
+console.log(bonus);
+const taxes = (salary + bonus) * 0.10;
+console.log(taxes);
+const expenses = 190;
+console.log(expenses);
+const result = salary + bonus - taxes - expenses;
+alert('Остаток вашей зароботной платы' +' '+':'+'  ' + result +' '+'USD');
